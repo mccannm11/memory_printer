@@ -1,0 +1,21 @@
+## Memory Printer
+
+## compile using:
+`gcc main.c -o main -lm -Wall`
+
+## run using:
+`setarch i386 -3 -B -R ./main`
+
+## notes:
+* heap, stack and mmap files must exist prior to running, contents dont matter
+
+## example output:
+	The heap is: 421311 mb
+	The heap starts at: 0x7ffff7ed7010
+	The stack is: 7 mb
+	The stack starts at: 0x7fffffffdde4
+	The mmap segments is: 2462 mb
+	The mmap starts at: 0x7ffff791a000
+	The bss starts at:   0x602074
+	The data starts at:   0x602070
+	The text segment begins at:   0x400720
